@@ -22,9 +22,9 @@ int main(){
   }
    printf("Heads: %d Tails: %d\n",H,T);
   if(H>T){
-    printf("You won\n");
+    printf("%s won\n",N);
   }else{
-    printf("You lost\n");
+    printf("%s lost\n",N);
   }
  
 }
